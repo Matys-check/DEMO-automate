@@ -1,0 +1,200 @@
+[1658435592.636][INFO]: Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 13756
+[1658435592.637][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1658435593.805][INFO]: [ae21c0127f955b4e65cade43247bb945] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\PJATK\\MAS\\DEMO-automate\\build\\downloads\\1658435588182_2876_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\PJATK\\MAS\\DEMO-automate\\build\\downloads\\1658435588182_2876_1",
+            "plugins.always_open_pdf_externally": true,
+            "profile.default_content_setting_values.automatic_downloads": 1
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1658435593.825][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\PJATK\\MAS\\DEMO-automate\\build\\downloads\\1658435588182_2876_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1658435593.828][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1658435593.837][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\mamat\AppData\Local\Temp\scoped_dir24356_806985502" data:,
+[1658435595.046][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1658435595.076][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1658435595.812][INFO]: [ae21c0127f955b4e65cade43247bb945] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "103.0.5060.114",
+      "chrome": {
+         "chromedriverVersion": "103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262})",
+         "userDataDir": "C:\\Users\\mamat\\AppData\\Local\\Temp\\scoped_dir24356_806985502"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:53538"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "ae21c0127f955b4e65cade43247bb945"
+}
+[1658435596.001][INFO]: [ae21c0127f955b4e65cade43247bb945] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1658435596.001][INFO]: Waiting for pending navigations...
+[1658435596.003][INFO]: Done waiting for pending navigations. Status: ok
+[1658435596.132][INFO]: Waiting for pending navigations...
+[1658435596.134][INFO]: Done waiting for pending navigations. Status: ok
+[1658435596.134][INFO]: [ae21c0127f955b4e65cade43247bb945] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1658435596.164][INFO]: [ae21c0127f955b4e65cade43247bb945] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1658435596.164][INFO]: [ae21c0127f955b4e65cade43247bb945] RESPONSE SetTimeouts
+[1658435596.195][INFO]: [ae21c0127f955b4e65cade43247bb945] COMMAND Navigate {
+   "url": "https://panelpc.pkoleasing.pl/login"
+}
+[1658435596.195][INFO]: Waiting for pending navigations...
+[1658435596.197][INFO]: Done waiting for pending navigations. Status: ok
+[1658435596.627][INFO]: Waiting for pending navigations...
+[1658435599.681][INFO]: Done waiting for pending navigations. Status: ok
+[1658435599.681][INFO]: [ae21c0127f955b4e65cade43247bb945] RESPONSE Navigate
+[1658435601.595][INFO]: [ae21c0127f955b4e65cade43247bb945] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "window.sessionStorage.setItem('token','test');"
+}
+[1658435601.595][INFO]: Waiting for pending navigations...
+[1658435601.601][INFO]: Done waiting for pending navigations. Status: ok
+[1658435601.620][INFO]: Waiting for pending navigations...
+[1658435601.622][INFO]: Done waiting for pending navigations. Status: ok
+[1658435601.622][INFO]: [ae21c0127f955b4e65cade43247bb945] RESPONSE ExecuteScript null
+[1658435601.631][INFO]: [ae21c0127f955b4e65cade43247bb945] COMMAND GetTitle {
+}
+[1658435601.631][INFO]: Waiting for pending navigations...
+[1658435601.638][INFO]: Done waiting for pending navigations. Status: ok
+[1658435601.646][INFO]: Waiting for pending navigations...
+[1658435601.648][INFO]: Done waiting for pending navigations. Status: ok
+[1658435601.648][INFO]: [ae21c0127f955b4e65cade43247bb945] RESPONSE GetTitle "PKO Leasing - Panel"
+[1658435601.671][INFO]: [ae21c0127f955b4e65cade43247bb945] COMMAND Navigate {
+   "url": "https://panelpc.pkoleasing.pl/login"
+}
+[1658435601.671][INFO]: Waiting for pending navigations...
+[1658435601.673][INFO]: Done waiting for pending navigations. Status: ok
+[1658435601.772][INFO]: Waiting for pending navigations...
+[1658435603.901][INFO]: Done waiting for pending navigations. Status: ok
+[1658435603.901][INFO]: [ae21c0127f955b4e65cade43247bb945] RESPONSE Navigate
+[1658435604.049][INFO]: [ae21c0127f955b4e65cade43247bb945] COMMAND Quit {
+}
+[1658435604.247][INFO]: [ae21c0127f955b4e65cade43247bb945] RESPONSE Quit
